@@ -1,8 +1,6 @@
 const { nanoid } = require('nanoid')
 const URL = require('../models/url.models.js')
 
-
-
 const handleGenerateNewShortUrl = async (req, res) => {
     const { url } = req.body
 
